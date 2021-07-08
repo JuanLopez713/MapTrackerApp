@@ -10,7 +10,6 @@ android {
         applicationId "com.example.mapdemo"
         minSdkVersion 18
         targetSdkVersion 28
-
         buildConfigField("String", "API_KEY", apikeyProperties['API_KEY'])
     }
 
